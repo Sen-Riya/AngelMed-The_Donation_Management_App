@@ -236,9 +236,6 @@ function Distribution() {
     });
     setErrors({});
   };
-
-  // Check if assistance type requires item name
-  const requiresItemName = (type: string) => type === 'medicine' || type === 'equipment';
   
   // Check if assistance type requires strength
   const requiresStrength = (type: string) => type === 'medicine';
